@@ -1,0 +1,110 @@
+.content {
+    overflow: auto;
+    position: relative;
+}
+
+.content::before {
+    content: "";
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    display: block;
+    background-image: url("./20181031_Brown4_C83T5506.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    filter: blur(5px);
+}
+
+.part {
+    background-color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+.everything {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    row-gap: 50px;
+}
+
+.title-div {
+    text-align: center;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    padding: 10px;
+}
+
+.header {
+    font-size: 3rem;
+    font-family: serif, "Times New Roman", sans-serif;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin: auto;
+}
+
+.sketches {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 400px;
+}
+
+.sketch {
+    max-width: 90%;
+    height: auto;
+}
+
+.questions {
+    font-size: rem;
+}
+
+.caption {
+    font-size: rem;
+    padding: 10px;
+}
+
+.storyboard {
+    max-width: 90%;
+}
+
+.frame {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.link {
+    position: relative;
+    top: 16px;
+}
+
+.problems-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.header-interior {
+    text-align: center;
+}
